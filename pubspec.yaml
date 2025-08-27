@@ -1,0 +1,45 @@
+# pubspec.yaml
+
+name: calculator                   # Project name
+description: "A new Flutter project" 
+publish_to: "none"              
+
+version: 1.0.0+1           
+
+# Dart SDK version requirement
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+# Dependencies for the project
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8            # Icons for iOS style
+  math_expressions: ^3.1.0           # For parsing and evaluating math expressions
+  flutter_native_splash: ^2.4.6
+
+  # Flutter native splash screen configuration
+flutter_native_splash:
+  color: "#121212"                 # Background color of splash (dark)
+  color_dark: "#121212"            # Background color for dark mode
+  image: assets/splash_logo/logo.png  # Path to splash image
+  android: true                     # Enable for Android
+  ios: true                         # Enable for iOS
+  web: true                         # Enable for web
+  fullscreen: true                  # Make splash fullscreen
+  android_gravity: center           # Position splash in center for Android
+  ios_content_mode: center          # Position splash in center for iOS
+
+# Development dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter                     # Flutter testing framework
+
+  flutter_lints: ^5.0.0              # Lint rules for cleaner code
+
+# Flutter specific configurations
+flutter:
+  uses-material-design: true          # Enables Material Design widgets
+  assets:
+    - assets\splash_logo\logo.png   # Make sure asset is included
