@@ -27,8 +27,6 @@ Funciona tanto em **layout mobile** quanto **desktop**, suportando operações a
 ### Layout Mobile
 ![Calculadora Mobile](flutter_01.png)
 
-### Layout Desktop
-![Calculadora Desktop](flutter_02.png)
 
 ---
 
