@@ -38,7 +38,7 @@ Funciona tanto em **layout mobile** quanto **desktop**, suportando operações a
 ![Dart](https://img.shields.io/badge/Dart-3.9-blue?logo=dart)  
 ![Licença](https://img.shields.io/badge/Licença-MIT-green)
 ## Estrutura do Projeto
-
+bash
 lib/
  ├── app/
  │   ├── pages/
