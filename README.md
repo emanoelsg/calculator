@@ -37,28 +37,7 @@ Funciona tanto em **layout mobile** quanto **desktop**, suportando operações a
 ![Flutter](https://img.shields.io/badge/Flutter-3.9-blue?logo=flutter)  
 ![Dart](https://img.shields.io/badge/Dart-3.9-blue?logo=dart)  
 ![Licença](https://img.shields.io/badge/Licença-MIT-green)
-## Estrutura do Projeto
-bash
-lib/
- ├── app/
- │   ├── pages/
- │   │   ├── calculator_page.dart
- │   │   ├── mobile_page.dart
- │   │   └── desktop_page.dart
- │   └── widgets/
- │       ├── calculator_buttons.dart
- │       └── calculator_display.dart
- └── main.dart
 
-test/
- ├── logic_test.dart
- └── widget_test.dart
-Testes
-Para rodar todos os testes:
-
-bash
-Copiar código
-flutter test
 ---
 
 ## Como Executar
