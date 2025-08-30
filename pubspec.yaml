@@ -1,6 +1,6 @@
 # pubspec.yaml
 
-name: calculator                   # Project name
+name: calculator             # Project name
 description: "A new Flutter project" 
 publish_to: "none"              
 
@@ -19,6 +19,7 @@ dependencies:
   math_expressions: ^3.1.0           # For parsing and evaluating math expressions
   flutter_native_splash: ^2.4.6
 
+
   # Flutter native splash screen configuration
 flutter_native_splash:
   color: "#121212"                 # Background color of splash (dark)
@@ -35,10 +36,17 @@ flutter_native_splash:
 dev_dependencies:
   flutter_test:
     sdk: flutter                     # Flutter testing framework
-
   flutter_lints: ^5.0.0              # Lint rules for cleaner code
+  flutter_launcher_icons: ^0.14.4
 
-# Flutter specific configurations
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon/calculator_icon.png"
+  
+  # Flutter specific configurations
 flutter:
   uses-material-design: true          # Enables Material Design widgets
   assets:
