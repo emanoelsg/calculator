@@ -40,5 +40,5 @@ Funciona tanto em **layout mobile** quanto **desktop**, suportando operações a
 
 ## Como Executar
 
-[📲 Baixar APK v1.0.0](https://github.com/emanoelsg/calculator/releases/download/v1.0.0/app-release.apk)
+[📲 Baixar APK v1.0.0]([https://github.com/emanoelsg/calculator/releases/download/v1.0.0/app-release.apk](https://github.com/emanoelsg/calculator/releases/tag/1.0.0))
 
