@@ -40,23 +40,5 @@ Funciona tanto em **layout mobile** quanto **desktop**, suportando operações a
 
 ## Como Executar
 
-### Pré-requisitos
-- Flutter SDK >= 3.9.0
-- Dart SDK
+[📲 Baixar APK v1.0.0](https://github.com/emanoelsg/calculator/releases/download/v1.0.0/app-release.apk)
 
-### Instalando
-```bash
-# Clonar o repositório
-git clone https://github.com/seu-usuario/calculator.git
-
-# Entrar na pasta do projeto
-cd calculator
-
-# Instalar dependências
-flutter pub get
-
-# Executar o app
-flutter run
-
-Licença
-Este projeto possui licença MIT. Livre para uso e modificações.
