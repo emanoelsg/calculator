@@ -141,11 +141,9 @@ class _CalculatorPageDesktopState extends State<CalculatorPageDesktop> {
                   switch (text) {
                     case 'AC':
                       onPressed = clear;
-                      color = Colors.orange;
                       break;
                     case '+/-':
                       onPressed = toggleSign;
-                      color = Colors.orange;
                       break;
                     case '/':
                     case 'x':
@@ -153,11 +151,9 @@ class _CalculatorPageDesktopState extends State<CalculatorPageDesktop> {
                     case '+':
                     case '=':
                       onPressed = text == '=' ? calculate : () => append(text);
-                      color = Colors.orange;
                       break;
                     case '⌫':
                       onPressed = delete;
-                      color = Colors.orange;
                       break;
                     default:
                       if (text.isNotEmpty) onPressed = () => append(text);
