@@ -27,8 +27,6 @@ Funciona tanto em **layout mobile** quanto **desktop**, suportando operações a
 ### Layout Mobile
 ![Calculadora Mobile](flutter_01.png)
 
-### Layout Desktop
-![Calculadora Desktop](flutter_02.png)
 
 ---
 
@@ -59,28 +57,6 @@ flutter pub get
 
 # Executar o app
 flutter run
-Estrutura do Projeto
-bash
-Copiar código
-lib/
- ├── app/
- │   ├── pages/
- │   │   ├── calculator_page.dart
- │   │   ├── mobile_page.dart
- │   │   └── desktop_page.dart
- │   └── widgets/
- │       ├── calculator_buttons.dart
- │       └── calculator_display.dart
- └── main.dart
 
-test/
- ├── logic_test.dart
- └── widget_test.dart
-Testes
-Para rodar todos os testes:
-
-bash
-Copiar código
-flutter test
 Licença
 Este projeto possui licença MIT. Livre para uso e modificações.
