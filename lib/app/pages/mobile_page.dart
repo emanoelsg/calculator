@@ -104,9 +104,11 @@ class _CalculatorPageMobileState extends State<CalculatorPageMobile> {
       body: Column(
         children: [
           // Display section
-          CalculatorDisplay(
-            text: displayText,
-            key: const Key('calculator-display'),
+          Expanded(
+            child: CalculatorDisplay(
+              text: displayText,
+              key: const Key('calculator-display'),
+            ),
           ),
           const SizedBox(height: 10),
 
@@ -120,7 +122,6 @@ class _CalculatorPageMobileState extends State<CalculatorPageMobile> {
                   crossAxisCount: 4,
                   crossAxisSpacing: 4,
                   mainAxisSpacing: 5,
-                  childAspectRatio: 1.2,
                 ),
                 itemBuilder: (context, index) {
                   final text = flatButtons[index];
