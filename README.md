@@ -1,4 +1,4 @@
-## 🧮 Calculator App | Aplicativo de Calculadora
+## 🧮 Calculator App
 
 Uma calculadora simples e responsiva desenvolvida em **Flutter**.  
 A simple and responsive calculator built with **Flutter**.  
