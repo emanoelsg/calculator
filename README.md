@@ -1,32 +1,7 @@
-# Calculadora Flutter 🧮
+## 🧮 Calculator App | Aplicativo de Calculadora
 
-Uma calculadora simples e responsiva desenvolvida com **Flutter**.  
-Funciona tanto em **layout mobile** quanto **desktop**, suportando operações aritméticas básicas e tratamento de erros.
-
----
-
-## Autor
-**Emanoel da Silva Gomes**  
-- Email: emanoeldasilvagomes16@gmail.com  
-- LinkedIn: [linkedin.com/in/emanoel-da-silva-gomes](https://www.linkedin.com/in/emanoel-da-silva-gomes-280787306)
-
----
-
-## Funcionalidades
-
-- ✅ Layout responsivo: Mobile & Desktop  
-- ✅ Operações básicas: `+`, `-`, `x`, `/`  
-- ✅ Botões de limpar (AC), apagar (⌫) e trocar sinal (+/-)  
-- ✅ Tratamento de erros (divisão por zero, expressões inválidas)  
-- ✅ Utiliza a biblioteca `math_expressions` para cálculos confiáveis  
-
----
-
-## Demonstração Visual
-
-### Layout Mobile
-![Calculadora Mobile](flutter_01.png)
-
+Uma calculadora simples e responsiva desenvolvida em **Flutter**.  
+A simple and responsive calculator built with **Flutter**.  
 
 ---
 
@@ -37,6 +12,28 @@ Funciona tanto em **layout mobile** quanto **desktop**, suportando operações a
 ![Licença](https://img.shields.io/badge/Licença-MIT-green)
 
 ---
+
+## 📱 Funcionalidades | Features
+- ✅ Layout responsivo: Mobile & Desktop | Responsive layout: Mobile & Desktop  
+- ✅ Operações básicas: `+`, `-`, `x`, `/` | Basic operations: `+`, `-`, `x`, `/`  
+- ✅ Botões de limpar (AC), apagar (⌫), trocar sinal (+/-) | Clear, delete, and sign change buttons  
+- ✅ Tratamento de erros (ex.: divisão por zero) | Error handling (e.g., division by zero)  
+
+---
+
+## 🛠 Tecnologias | Tech Stack
+- **Flutter & Dart**  
+- **math_expressions** (engine de cálculo | calculation engine)  
+
+---
+
+## 📸 Demonstração | Demo
+### Mobile Layout  
+![Calculator Mobile](flutter_01.png)
+
+---
+
+
 
 ## Como Executar
 
